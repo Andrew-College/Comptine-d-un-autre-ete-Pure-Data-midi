@@ -1,0 +1,25 @@
+#N canvas 245 114 859 348 10;
+#X obj 242 269 comptine_main_loop2;
+#X text -41 259 I am the comptine starter \, the twisted comptine starter
+;
+#X obj 207 144 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 385 170 2500;
+#X text -36 137 play/pause;
+#X text 183 129 reset song;
+#X text 413 170 Industry-standard timing malarkey;
+#X obj 436 231 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 452 222 Play the song by your own (random timing) rules;
+#X text 200 285 Delve in here to unlock the hidden mastery;
+#X text 177 -36 IMPORTANT \; The following files need to be open in
+this order \; 1.pnote 2.comptine_main_loop 3.This Auditory player;
+#X obj -35 158 bng 100 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 157 159 See the theme tune \, reset the theme tune;
+#X text 420 180 BEST song timing;
+#X text 122 38 Otherwise the patches will be unknown to pure data;
+#X connect 2 0 0 1;
+#X connect 3 0 0 2;
+#X connect 7 0 0 3;
+#X connect 11 0 0 0;
